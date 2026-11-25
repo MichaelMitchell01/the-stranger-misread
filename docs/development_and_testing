@@ -1,34 +1,53 @@
-## Development
+Development and Testing
 
-- Used prior website development coursework experience for HTML, CSS, and JavaScript implementation.
+Development
 
-  #AI-Assisted Development
+Previously developed a website using HTML, CSS, and JavaScript during my Computer Information Systems coursework at Buffalo State University.
+
+Applied that foundational knowledge to review the website's structure, understand its functionality, and test its interactive features.
+
+AI-Assisted Development
+
 I used ChatGPT to assist with:
-Refining the website's interpretation of Albert Camus' The Stranger.
+
 Developing the interactive courtroom and cross-examination features.
-Troubleshooting browser errors and providing GitHub deployment guidance.
+
+Troubleshooting browser errors.
+
 Testing and Troubleshooting
 
 I tested the website locally using Python's HTTP server and Chrome Developer Tools.
 
 Testing included:
+
 Verifying that the website loaded successfully.
-Testing the interactive courtroom features.
+
+Testing the interactive courtroom and cross-examination features.
+
 Checking the website's responsive layout.
+
 Reviewing the browser console for errors.
 
 Favicon Error
-The browser console displayed an HTTP 404 error because the website did not contain a favicon.
 
-I resolved this by adding the following HTML to the <head> section of index.html:
+Issue: Chrome Developer Tools displayed an HTTP 404 error because the browser requested a missing favicon.ico file.
+
+Resolution: Added the following HTML inside the <head> section of index.html:
+
 <link rel="icon" href="data:,">
-This prevented unnecessary favicon requests.
+
+Result: The browser stopped requesting the missing favicon, eliminating the unnecessary 404 error.
 
 Deployment
-I initialized a local Git repository, committed the project files, and pushed them to GitHub.
-I then configured GitHub Pages to publish the website from the main branch.
-I reviewed the website's functionality, tested its interactive features,
-and configured the project for deployment using GitHub Pages.
 
-The coding-tool session history is available in
-[docs/session-history](docs/session-history/).
+Initialized a local Git repository and committed the project files.
+
+Configured the Git remote and pushed the project to GitHub.
+
+Enabled GitHub Pages to publish the website from the main branch.
+
+Verified that the published website was accessible.
+
+Coding-Tool Session History
+
+The coding-tool session history documents the AI-assisted development, revisions, troubleshooting, and deployment guidance.
