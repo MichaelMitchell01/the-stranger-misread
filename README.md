@@ -35,7 +35,7 @@ The site needs no installation or compilation. Open `index.html` directly, or fr
 py -m http.server 5500
 ```
 
-Then open `http://localhost:5500` in a browser. Press `Ctrl+C` to stop the server.
+Then open `http://localhost:5501` in a browser. Press `Ctrl+C` to stop the server.
 
 ## Manual testing
 
