@@ -1,0 +1,22 @@
+# ChatGPT Coding-Tool Session History
+
+## Session 1: Initial Website Development
+
+**User:**
+I've read The Stranger. Give me an idea to buld a website accordingly.
+
+**ChatGPT:**
+The Stranger is an excellent choice for Dispatch Energy's technical assessment. The assignment allows you to defend something that's either underrated or misunderstood. The Stranger is already a celebrated literary classic, so your website should focus on why readers misunderstand it.
+
+## Session 3: Testing and Troubleshooting
+
+**User:**
+Elements & Console show this error.
+
+**ChatGPT:**
+Your browser is requesting favicon.ico, the small icon displayed in a browser tab. Because your project doesn't contain that file, the Python server returns HTTP 404.
+
+Since your assessment focuses on the website's functionality, this is the quickest solution.
+1. Open index.html in Visual Studio Code.
+2. Locate the <head> section.
+3. Add the following line: <link rel="icon" href="data:,">
